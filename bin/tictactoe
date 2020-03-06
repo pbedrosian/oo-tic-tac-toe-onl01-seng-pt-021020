@@ -3,8 +3,6 @@ require 'pry'
 require_relative '../lib/tic_tac_toe.rb'
 
 def play
-  game = TicTacToe.new
-  game.play
   until over? == true
     turn
   end

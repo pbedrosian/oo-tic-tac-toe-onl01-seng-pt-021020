@@ -107,7 +107,7 @@ class TicTacToe
     until over? == true
       turn
     end
-    end
+  end
 
 
 end

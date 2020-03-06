@@ -104,9 +104,13 @@ class TicTacToe
 
 
   def play
-    until over? == true
-      turn
-    end
+    turn until over?
+      # Congratulate the winner
+      won? ? puts("Congratulations #{winner}!") : puts("Cat's Game!")
+      # Ask if they'd like to play again
+      puts "Would you like to play again? (Y or N)"
+      # If yes, then #play again
+      gets.strip.downcase == "y" || gets.strip.downcase == "yes" ? play : puts("Goodbye!")
     end
 
 

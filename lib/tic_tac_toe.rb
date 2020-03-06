@@ -106,6 +106,7 @@ class TicTacToe
   def play
     # until over? == true
     turn until over?
+    puts "Congratulations X!"
   end
 
 

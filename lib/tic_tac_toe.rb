@@ -107,6 +107,9 @@ class TicTacToe
     # until over? == true
     turn until over?
     puts "Congratulations #{winner}!"
+
+    if winner
+      puts "Congratulations #{winner} !"
   end
 
 

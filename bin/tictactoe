@@ -6,3 +6,6 @@ def play
   until over? == true
     turn
   end
+
+  game = TicTacToe.new
+  game.play

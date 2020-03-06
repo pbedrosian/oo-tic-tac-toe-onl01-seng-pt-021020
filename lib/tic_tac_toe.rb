@@ -104,9 +104,8 @@ class TicTacToe
 
 
   def play
-    until over? == true
-      turn
-    end
+    # until over? == true
+      turn until over? == true
   end
 
 
